@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <style>
+
+        ul li a:hover {
+        background-color: rgb(91, 226, 91);
+        border-radius: 3px;
+
+    }
+
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .faq-container {
+            max-width: 800px;
+            margin: auto;
+        }
+        .faq-item {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            padding: 15px;
+            cursor: pointer;
+        }
+        .faq-question {
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+        .faq-answer {
+            display: none;
+            margin-top: 10px;
+            color: #444;
+        }
+        .faq-item.active .faq-answer {
+            display: block;
+        }
+    </style>
+    
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-success">
+  <div class="container">
+    <a class="navbar-brand text-white" href="#">TTC</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav m-auto">
+        <li class="nav-item">
+          <a class="nav-link active text-white" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="Contact.html">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="Faq.html">Faq</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+    <h1 class="py-5">প্রশ্নোত্তর (FAQ)</h1>
+    <div class="faq-container">
+        <div class="faq-item">
+            <div class="faq-question">১. এই ওয়েবসাইটের উদ্দেশ্য কী?</div>
+            <div class="faq-answer">এই ওয়েবসাইটটি ব্যবহারকারীদের সাধারণ প্রশ্নের উত্তর দেওয়ার জন্য তৈরি করা হয়েছে।</div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question">২. আমি কিভাবে একাউন্ট তৈরি করব?</div>
+            <div class="faq-answer">আপনি হোমপেজ থেকে "নিবন্ধন করুন" বাটনে ক্লিক করে একটি নতুন একাউন্ট তৈরি করতে পারবেন।</div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question">৩. আমি পাসওয়ার্ড ভুলে গেলে কী করব?</div>
+            <div class="faq-answer">"পাসওয়ার্ড ভুলে গেছেন?" লিংকে ক্লিক করে আপনি পুনরুদ্ধার করতে পারবেন।</div>
+        </div>
+        <div class="faq-item">
+    <div class="faq-question">৪. আমি কিভাবে আমার প্রোফাইল আপডেট করব?</div>
+    <div class="faq-answer">আপনি ড্যাশবোর্ড থেকে প্রোফাইল অপশনে গিয়ে তথ্য আপডেট করতে পারবেন।</div>
+</div>
+<div class="faq-item">
+    <div class="faq-question">৫. সাপোর্ট টিমের সাথে কিভাবে যোগাযোগ করব?</div>
+    <div class="faq-answer">যোগাযোগ পৃষ্ঠায় দেওয়া ইমেইল বা ফর্ম ব্যবহার করে আপনি আমাদের সাপোর্ট টিমের সাথে যোগাযোগ করতে পারবেন।</div>
+</div>
+<div class="faq-item">
+    <div class="faq-question">৬. ওয়েবসাইটটি কি মোবাইলে ব্যবহার করা যায়?</div>
+    <div class="faq-answer">হ্যাঁ, এই ওয়েবসাইটটি মোবাইল ও ডেস্কটপ উভয় ডিভাইসেই ভালোভাবে কাজ করে।</div>
+</div>
+<div class="faq-item">
+    <div class="faq-question">৭. কিভাবে আমি আমার একাউন্ট ডিলিট করব?</div>
+    <div class="faq-answer">সেটিংস পৃষ্ঠায় "একাউন্ট ডিলিট" অপশন থেকে আপনি একাউন্ট মুছে ফেলতে পারবেন।</div>
+</div>
+<div class="faq-item">
+    <div class="faq-question">৮. আমার তথ্য কি নিরাপদে রাখা হয়?</div>
+    <div class="faq-answer">হ্যাঁ, আমরা আপনার ব্যক্তিগত তথ্য সুরক্ষার জন্য উন্নত সিকিউরিটি ব্যবস্থা ব্যবহার করি।</div>
+</div>
+<div class="faq-item">
+    <div class="faq-question">৯. কিভাবে আমি নিউজলেটারে সাবস্ক্রাইব করব?</div>
+    <div class="faq-answer">হোমপেজের নিচে থাকা সাবস্ক্রিপশন ফর্ম পূরণ করে আপনি নিউজলেটারে সাবস্ক্রাইব করতে পারবেন।</div>
+</div>
+
+    </div>
+
+    <footer class="container-fluid mt-5 bg-success d-flex justify-content-between align-items-center py-2">
+    <span class="text-light fw-bold">Al Rights Reserved &copy; Raj TTC</span>
+    <div>
+      <button type="button" class="btn btn-outline-success  rounded-circle">
+        <img src="icons8-google-48.png" alt="" width="25" height="25">
+      </button>
+      <button type="button" class="btn btn-outline-success  rounded-circle">
+        <img src="icons8-google-48.png" alt="" width="25" height="25">
+      </button>
+      <button type="button" class="btn btn-outline-success  rounded-circle">
+        <img src="icons8-google-48.png" alt="" width="25" height="25">
+      </button>
+      <button type="button" class="btn btn-outline-success  rounded-circle">
+        <img src="icons8-google-48.png" alt="" width="25" height="25">
+      </button>
+    </div>
+
+  </footer>
+
+
+    <script>
+        const items = document.querySelectorAll('.faq-item');
+        items.forEach(item => {
+            item.addEventListener('click', () => {
+                item.classList.toggle('active');
+            });
+        });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</body>
+</html>
